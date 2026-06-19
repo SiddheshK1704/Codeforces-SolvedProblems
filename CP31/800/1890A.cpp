@@ -78,7 +78,7 @@ int main(){
         int n;
         cin>>n;
 
-        map<int, int> freq;
+        map<int, int> freq;  //maps store key value pairs. now if u are using an iterator, (p) then p.first gives the value and p.second gives the value. p++ will move it to the next key.
         
         for(int i=0;i<n;i++){
             int x;
